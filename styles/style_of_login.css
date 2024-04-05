@@ -1,0 +1,27 @@
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+#man-with-computer{
+    position: relative;
+    bottom: 300px; left: 700px;
+}
+
+#container{
+    background-image: url(../images/olas.svg);
+    background-size: cover;
+}
+
+#formulario{
+    padding: 100px;
+}
+
+#formulario h2{
+    color: cadetblue;
+    font-weight: 800;
+}
