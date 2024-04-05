@@ -1,3 +1,8 @@
+body{
+  height: 100%;
+  overflow: hidden;
+}
+
 *{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -8,20 +13,57 @@
 }
 
 #man-with-computer{
-    position: relative;
-    bottom: 300px; left: 700px;
+  position: relative;
+  bottom: 900px; left: 900px;
 }
 
 #container{
-    background-image: url(../images/olas.svg);
-    background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/olas.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 #formulario{
-    padding: 100px;
+  height: 100%;
+  width: 400px;
+  padding: 100px;
+  text-align: center;
 }
 
 #formulario h2{
-    color: cadetblue;
-    font-weight: 800;
+  color: cadetblue;
+  font-weight: 800;
 }
+
+  #formulario input, select{
+  width: 300px;
+  height: 30px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 5px;
+  padding-left: 15px;
+  }
+
+#formulario #checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 5px;
+}
+
+  #formulario #cb-acepto{
+  width: 30px;
+  }
+
+  #formulario button{
+  color: white;
+  background-color: cadetblue;
+  border-style: none;
+  border-radius: 50px;
+  height: 45px;  
+  }
