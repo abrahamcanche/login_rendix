@@ -13,9 +13,12 @@
     <div id="container">
     <div id="formulario">
         <h1>RENDIX</h1>
-        <h2>Iniciar sesión</h2>
+        <h2>Registro de usuarios</h2>
         <h5>Ingrese sus datos</h5>
             <form action="form">
+                <input type="text" placeholder="Nombre (s)" required><br></br></form>
+                <input type="text" placeholder="Apellidos" required><br></br>
+                <input type="email" placeholder="Correo electrónico" required><br></br>
                 <select name="perfil" id="perfil" form="Selecciona tu perfil" required>
                     <option value="invalid" aria-invalid="false">Selecciona tu perfil</option>
                     <option value="alumno">Alumno</option>
@@ -24,9 +27,9 @@
                 </select><br></br>
                 <input type="text" placeholder="DNI" required><br></br>
                 <input type="password" placeholder="Contraseña" required><br></br>
-                <div class="checkbox"><input type="checkbox" id="cb-acepto" required> <label for="cb-acepto">Recordar datos</label><br></br></div>
-                <h5 id="recuperar-contraseña">¿Olvidaste tu contraseña?</h5>
-                <button type="button">Acceder</button>
+                <input type="password" placeholder="Confirmar contraseña" required><br></br>
+                <div class="checkbox"><input type="checkbox" id="cb-acepto" required> <label for="cb-acepto">Acepto los Terminos y Condiciones</label><br></br></div>
+                <button type="button">Registrarse</button>
             </form>
     </div>
     <div>

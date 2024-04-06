@@ -37,16 +37,16 @@ body{
   font-weight: 800;
 }
 
-  #formulario input, select{
+#formulario input, select{
   width: 300px;
   height: 30px;
   border-color: grey;
   border-style: solid;
   border-radius: 5px;
   padding-left: 15px;
-  }
+}
 
-#formulario #checkbox{
+#formulario .checkbox{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,14 +56,21 @@ body{
   gap: 5px;
 }
 
-  #formulario #cb-acepto{
+#formulario #cb-acepto{
   width: 30px;
-  }
+}
 
-  #formulario button{
+#formulario button{
   color: white;
   background-color: cadetblue;
   border-style: none;
   border-radius: 50px;
-  height: 45px;  
-  }
+  height: 45px;
+  cursor: pointer;  
+}
+
+#recuperar-contraseña{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
