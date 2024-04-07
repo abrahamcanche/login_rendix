@@ -14,7 +14,7 @@ body{
 
 #man-with-computer{
   position: relative;
-  bottom: 900px; left: 900px;
+  bottom: 700px; left: 900px;
 }
 
 #container{
@@ -28,7 +28,7 @@ body{
 #formulario{
   height: 100%;
   width: 400px;
-  padding: 100px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -73,4 +73,9 @@ body{
   color: blue;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
 }
