@@ -82,6 +82,6 @@ body{
 
 @media only screen and (max-width: 600px) {
   #man-with-computer{
-    opacity: 0;
+    display: none;
   }
 }
