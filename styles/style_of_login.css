@@ -84,4 +84,12 @@ body{
   #man-with-computer{
     display: none;
   }
+  #formulario{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #formulario h2{
+    text-decoration
+  }
 }
